@@ -3,42 +3,6 @@
     <output-path>$PROJECT_DIR$/out/artifacts/plane_jar</output-path>
     <root id="archive" name="plane.jar">
       <element id="module-output" name="plane" />
-      <element id="dir-copy" path="$PROJECT_DIR$/img" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/background.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy1.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy2.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy3.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy4.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy5.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy6.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy7.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy8.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy9.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy10.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy11.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy12.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy13.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy14.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy15.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy16.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy17.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy18.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy19.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/enemy20.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/fire.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me1.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me_1.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me_2.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me_3.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me_4.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me_5.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me_destroy_1.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me_destroy_2.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/me_destroy_3.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/pause_pressed.png" />
-      <element id="file-copy" path="$PROJECT_DIR$/img/plane.png" />
     </root>
   </artifact>
 </component>

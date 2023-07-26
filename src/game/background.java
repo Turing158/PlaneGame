@@ -2,6 +2,7 @@ package game;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 public class background {
     public int bx;
@@ -12,7 +13,7 @@ public class background {
         bx=0;
         by=0;
         this.nowp = p;
-        imgbg = new ImageIcon("img/background.png").getImage();
+        imgbg = new ImageIcon(Objects.requireNonNull(this.getClass().getResource("./img/background.png"))).getImage();
     }
     public void dbg(Graphics g){//画
         g.drawImage(imgbg,bx,by,nowp);

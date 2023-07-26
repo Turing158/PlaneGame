@@ -2,6 +2,7 @@ package game;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 public class enemy {
     public int ex;
@@ -13,7 +14,7 @@ public class enemy {
     public enemy(Panel p,int x,int y){
         this.ex = x;
         this.ey = y;
-        imge = new ImageIcon("img/enemy.png").getImage();
+        imge = new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy.png"))).getImage();
         this.nowp = p;
         ew = imge.getWidth(nowp);
         eh = imge.getHeight(nowp);

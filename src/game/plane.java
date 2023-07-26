@@ -2,6 +2,7 @@ package game;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 public class plane {
     public int px;
@@ -14,9 +15,9 @@ public class plane {
         px = 200;
         py = 700;
         this.nowp = p;
-        imgp = new ImageIcon("img/me.png").getImage();
-        pw = imgp.getWidth(nowp);
-        ph = imgp.getHeight(nowp);
+//        imgp = new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/me.png"))).getImage();
+//        pw = imgp.getWidth(nowp);
+//        ph = imgp.getHeight(nowp);
     }
     public void dp(Graphics g){//画
         g.drawImage(imgp,px,py,nowp);

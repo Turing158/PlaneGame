@@ -2,6 +2,7 @@ package game;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 public class Denemy {
     public int Dex;
@@ -10,26 +11,27 @@ public class Denemy {
     public boolean death;
     public Panel nowp;
     public Image imgDe[] = {//添加图片数组，利用数组做动画
-            new ImageIcon("img/enemy1.png").getImage(),
-            new ImageIcon("img/enemy1.png").getImage(),
-            new ImageIcon("img/enemy1.png").getImage(),
-            new ImageIcon("img/enemy1.png").getImage(),
-            new ImageIcon("img/enemy1.png").getImage(),
-            new ImageIcon("img/enemy2.png").getImage(),
-            new ImageIcon("img/enemy2.png").getImage(),
-            new ImageIcon("img/enemy2.png").getImage(),
-            new ImageIcon("img/enemy2.png").getImage(),
-            new ImageIcon("img/enemy2.png").getImage(),
-            new ImageIcon("img/enemy3.png").getImage(),
-            new ImageIcon("img/enemy3.png").getImage(),
-            new ImageIcon("img/enemy3.png").getImage(),
-            new ImageIcon("img/enemy3.png").getImage(),
-            new ImageIcon("img/enemy3.png").getImage(),
-            new ImageIcon("img/enemy4.png").getImage(),
-            new ImageIcon("img/enemy4.png").getImage(),
-            new ImageIcon("img/enemy4.png").getImage(),
-            new ImageIcon("img/enemy4.png").getImage(),
-            new ImageIcon("img/enemy4.png").getImage()
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy1.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy1.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy1.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy1.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy1.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy2.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy2.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy2.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy2.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy2.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy3.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy3.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy3.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy3.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy3.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy4.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy4.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy4.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy4.png"))).getImage(),
+            new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/enemy4.png"))).getImage()
+
     };
     public Denemy(Panel p,int x,int y){
         this.Dex = x;

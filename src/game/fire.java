@@ -2,6 +2,7 @@ package game;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 public class fire {
     public int fx;
@@ -14,7 +15,7 @@ public class fire {
         this.fx = x;
         this.fy = y;
         this.nowp = p;
-        imgf = new ImageIcon("img/fire.png").getImage();
+        imgf = new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/fire.png"))).getImage();
         fw = imgf.getWidth(nowp);
         fh = imgf.getHeight(nowp);
     }

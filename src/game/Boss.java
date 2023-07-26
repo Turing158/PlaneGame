@@ -2,6 +2,7 @@ package game;
 
 import javax.swing.*;
 import java.awt.*;
+import java.util.Objects;
 
 public class Boss {
     public int bx;
@@ -15,7 +16,7 @@ public class Boss {
         this.bx = x;
         this.by = y;
         this.nowp = p;
-        imgb = new ImageIcon("img/boss.png").getImage();
+        imgb = new ImageIcon(Objects.requireNonNull(this.getClass().getResource("../img/boss.png"))).getImage();
         bw = imgb.getWidth(nowp);
         bh = imgb.getHeight(nowp);
     }
