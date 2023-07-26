@@ -8,7 +8,7 @@ public class Boss {
     public int by;
     public int bw;
     public int bh;
-    public static int xue = 5;
+    public int xue = 5;
     public Panel nowp;
     public Image imgb;
     public Boss(Panel p,int x,int y){
@@ -27,6 +27,6 @@ public class Boss {
         this.by = y;
     }
     public void delete(){
-        Boss.xue--;
+        this.xue--;
     }
 }

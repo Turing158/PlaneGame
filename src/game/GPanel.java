@@ -185,7 +185,7 @@ public class GPanel extends Panel implements Runnable, KeyListener, MouseMotionL
                         if(this.CH(nowf.fx, nowf.fy, nowf.fw, nowf.fh, nowb.bx, nowb.by, nowb.bw, nowb.bh)){
                             nowb.delete();
                             allf.removeElementAt(i);
-                            if(Boss.xue == 0){
+                            if(nowb.xue == 0){
                                 allBoss.removeElementAt(j);
                                 allDb.addElement(new Dboss(this, nowb.bx,nowb.by));
                                 score +=500;
